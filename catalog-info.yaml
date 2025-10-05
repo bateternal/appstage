@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstagetest1-helper
+  description: A helper component for Backstage Test Project, owned by Alice
+  annotations:
+    backstage.io/managed-by-location: url:https://github.com/bateternal/backstagetest1
+spec:
+  type: service
+  lifecycle: development
+  owner: alice
+  system: backstage-demo
+  dependsOn:
+    - component:default/backstagetest1
