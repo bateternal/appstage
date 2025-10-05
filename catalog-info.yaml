@@ -8,7 +8,7 @@ metadata:
 spec:
   type: service
   lifecycle: development
-  owner: masihyeganeh
+  owner: user:masihyeganeh
   system: backstage-demo
   dependsOn:
     - component:default/backstagetest1
